@@ -17,7 +17,7 @@ public:
 	UCharacterPatrol();
 
 protected:
-	UPROPERTY(EditInstanceOnly, Category = "Default")
+	UPROPERTY(EditAnywhere, Category = "Default")
 	TArray<AActor*> PatrolPoints;
 
 	// Called when the game starts
