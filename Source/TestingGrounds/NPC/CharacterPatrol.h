@@ -20,6 +20,9 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Default")
 	TArray<AActor*> PatrolPoints;
 
+	UPROPERTY(EditAnywhere, Category = "Default")
+	FVector FocusPoint;
+
 	// Called when the game starts
 	//virtual void BeginPlay() override;
 

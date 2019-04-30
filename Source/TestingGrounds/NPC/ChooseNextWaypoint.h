@@ -15,7 +15,8 @@ UCLASS()
 class TESTINGGROUNDS_API UChooseNextWaypoint : public UBTTaskNode
 {
 	GENERATED_BODY()
-		EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
+	
+	EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
 
 protected:
 	UPROPERTY(EditANywhere, Category = "Blackboard")
